@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Pomodoro App</title>
+  </head>
+  <body>
+    <div class="app-container">
+      <h1>Pomodoro</h1>
+      <div class="app-message">Press start to begin</div>
+
+      <div class="app-circle">
+        <div class="circle-outline">
+          <div class="app-counter-box">
+            <p><span class="minutes">25</span>:<span class="seconds">00</span></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="button-group">
+        <button class="btn-start">Start</button>
+        <button class="btn-pause">Pause</button>
+        <button class="btn-reset">Reset</button>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
